@@ -15,7 +15,9 @@ def concat_logs(list_files: list) -> DataFrame:
     ''' Function that returns concat of logs in a single dataframe''' 
     df = DataFrame()
     for file in list_files:
+        phone = (file.split('/')[-1]).split('.')[0]
         temp_df = read_excel(file)
+        temp_df['phone'] = [phone] * temp_df.shape[0]
         df = concat([df,temp_df])
     return df
 
@@ -34,6 +36,7 @@ def main():
     paths = {'logs':'logs/'}
     print(pHead)
     files = filter_listdir(paths['logs'], 'xlsx')
-
+    general_df = concat_logs(files)
+    print(general_df)
 
 main()

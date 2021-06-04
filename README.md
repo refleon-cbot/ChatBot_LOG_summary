@@ -1,26 +1,23 @@
 # Summary LOGs Chatbot
 ---
 ## Install requirements
-Before you do anything install [python](https://www.python.org/downloads/windows/), while doing that be sure to add python to the path ![alt text](https://github.com/Eric106/Computational_Intelligence/blob/master/Act3-Anomalous_Detection_LSTM/img/model.loss.png?raw=true)
+Before you do anything install [python](https://www.python.org/downloads/windows/), while doing that be sure to add python to the path ![alt text](img/python_install1.png)
 
-Then make sure that the requirements are correctly installed. The dependencies can be installed via: 
-
-`Anaconda`
-
-```shell
-~$ conda install -c defaults -c conda-forge --file requirements.txt
-```
+Then make sure that the requirements are correctly installed. The dependencies can be installed via command line: 
 
 `pip`
 
 ```shell
 ~$ python -m pip install -r requirements.txt
 ```
+## Prepare data
+Download de log files from [drive](https://drive.google.com/drive/folders/1_dCz7T78J33P0bEUoXRHfZyCNLC5UCy6), and place it `logs/` folder.
+
 ## Run Server
-After getting the requirements `RUN` the backend server
+After getting the requirements run the `summary_logs.py`
 
 ```shell
-~$ python app.py
+~$ python summary_logs.py
 ```
 
 ---

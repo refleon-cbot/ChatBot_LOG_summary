@@ -1,5 +1,7 @@
 pandas==1.2.4
 xlrd==2.0.1
+xlsxwriter==1.4.3
 openpyxl==3.0.7
+progress==1.5
 pylint
 autopep8

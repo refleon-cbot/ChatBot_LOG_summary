@@ -1,7 +1,8 @@
 # Summary LOGs Chatbot
 ---
 ## Install requirements
-Before you do anything install [python](https://www.python.org/downloads/windows/), while doing that be sure to add python to the path ![alt text](img/python_install1.png)
+This only works on a Windows OS.<br>
+Before you do anything install [python](https://www.python.org/downloads/windows/), while doing that be sure to add python to the path ![alt text](modules/img/python_install1.png)
 
 Then make sure that the requirements are correctly installed. The dependencies can be installed via command line: 
 
